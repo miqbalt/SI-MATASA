@@ -1,8 +1,8 @@
 <!Doctype HTML>
 <html>
     <head>
-        <link href="http://localhost/SI-MATASA/assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="http://localhost/SI-MATASA/assets/css/bootstrap.css" rel="stylesheet">
+        <link href="<?php echo base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet">
     </head>
     <body>
     <div class="col-lg-offset-4">
