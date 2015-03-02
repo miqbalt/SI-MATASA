@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7030a9ac-1769-44a3-aa1e-348e0007d08d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/.htaccess" afterPath="$PROJECT_DIR$/application/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SI-MATASA.iml" afterPath="$PROJECT_DIR$/.idea/SI-MATASA.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/login_view.php" afterPath="$PROJECT_DIR$/application/views/login_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7030a9ac-1769-44a3-aa1e-348e0007d08d" name="Default" comment="" />
     <ignored path="SI-MATASA.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -76,8 +70,8 @@
       <file leaf-file-name="home_view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/home_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52196836" vertical-offset="298" max-vertical-offset="1003">
-              <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.94024605" vertical-offset="60" max-vertical-offset="1003">
+              <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
               <folding>
                 <marker date="1425282150667" expanded="true" signature="284:297" placeholder="..." />
                 <marker date="1425282150667" expanded="true" signature="1996:2074" placeholder="..." />
@@ -823,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/home_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52196836" vertical-offset="298" max-vertical-offset="1003">
-          <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.94024605" vertical-offset="60" max-vertical-offset="1003">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
           <folding>
             <marker date="1425282150667" expanded="true" signature="284:297" placeholder="..." />
             <marker date="1425282150667" expanded="true" signature="1996:2074" placeholder="..." />
