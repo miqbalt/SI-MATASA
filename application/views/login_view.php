@@ -28,7 +28,7 @@
                         <div style="margin-top:10px" class="form-group">
                             <!-- Button -->
                             <div class="col-sm-12 controls">
-                                <a class="btn btn-success" href="#" class="btn btn-success">Login  </a>
+                                <a class="btn btn-success" href="<?php echo site_url('home/index');?>">Login</a>
                             </div>
                         </div>
                         <div class="form-group">
