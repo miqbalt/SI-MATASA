@@ -4,6 +4,7 @@
     <title>SI-MATASA</title>
     <link  rel="stylesheet" href="<?php echo base_url()?>assets/css/bootstrap.css">
     <link  rel="stylesheet" href="<?php echo base_url()?>assets/css/bootswatch.min.css">
+    <link  rel="stylesheet" href="<?php echo base_url()?>assets/css/bootstrap-datepicker.css">
 </head>
 <body>
 <div class="row">
@@ -17,12 +18,13 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Master<span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mengelola Data<span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="<?php echo site_url('siswa/index');?>">Siswa</a></li>
                                     <li><a href="#">Mapel</a></li>
                                     <li><a href="#">Guru</a></li>
                                     <li><a href="#">Ekskul</a></li>
+                                    <li><a href="#">Kelas</a></li>
                                 </ul>
                             </li>
                         </ul>

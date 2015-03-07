@@ -23,6 +23,33 @@ class Siswa extends CI_Controller {
         $this->load->view('siswa_view');
         $this->load->view('footer_view');
     }
+
+    public  function insert()
+    {
+        $this->load->view('header_view');
+        $this->load->view('siswa_insert_view');
+        $this->load->view('footer_view');
+    }
+
+    public function save()
+    {
+        $this->form_validation->set_rules('id_murid', 'No Induk', 'required');
+        $this->form_validation->set_rules('nama', 'Nama', 'required');
+        $this->form_validation->set_rules('jenis_kelamin', 'Jenis Kelamin', 'required');
+        $this->form_validation->set_rules('username', 'Username', 'required');
+        $this->form_validation->set_rules('password', 'Password', 'required');
+        if ($this->form_validation->run() === FALSE)
+        {
+            $this->load->view('header_view');
+            $this->load->view('siswa_insert_view');
+            $this->load->view('footer_view');
+        }
+        else
+        {
+            $this->m_siswa->tambah();
+            $this->load->view('siswa');
+        }
+    }
 }
 
 /* End of file welcome.php */
