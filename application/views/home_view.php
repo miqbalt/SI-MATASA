@@ -12,7 +12,7 @@
                 <div class="jumbotron">
                     <div class="row">
                         <div class="col-lg-10 col-lg-offset-1">
-                            <h3>Anda berhasil masuk ke halaman TU</h3>
+                            <h3>Anda berhasil masuk ke halaman Tata Usaha</h3>
                         </div>
                     </div>
                 </div>
