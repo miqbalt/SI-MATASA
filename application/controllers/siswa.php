@@ -19,9 +19,13 @@ class Siswa extends CI_Controller {
      */
     public function index()
     {
+        $this->load->model('m_siswa');
+        $data['data'] = $this->m_siswa->getData();
+        //print_r($data['data']);
         $this->load->view('header_view');
-        $this->load->view('siswa_view');
-        $this->load->view('footer_view');
+        $this->load->view('siswa_view',$data);
+            $this->load->view('footer_view');
+        
     }
 
     public  function insert()
@@ -38,7 +42,7 @@ class Siswa extends CI_Controller {
         $this->form_validation->set_rules('jenis_kelamin', 'Jenis Kelamin', 'required');
         $this->form_validation->set_rules('username', 'Username', 'required');
         $this->form_validation->set_rules('password', 'Password', 'required');
-        if ($this->form_validation->run() === FALSE)
+        if ($this->form_validation->run() == FALSE)
         {
             $this->load->view('header_view');
             $this->load->view('siswa_insert_view');
@@ -46,8 +50,11 @@ class Siswa extends CI_Controller {
         }
         else
         {
+            $this->load->model('m_siswa');
             $this->m_siswa->tambah();
-            $this->load->view('siswa');
+            $this->load->view('header_view');
+            $this->load->view('siswa_insert_view');
+            $this->load->view('footer_view');
         }
     }
 }

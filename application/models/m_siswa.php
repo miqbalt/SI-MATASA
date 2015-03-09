@@ -26,7 +26,7 @@ class M_siswa extends CI_Model{
             'username' => $username,
             'password' => $password,
             'alamat' => $alamat,
-            'no_telepon' => $no_telepon,
+            'nomor_telepon' => $no_telepon,
             'tanggal_lahir' => $tanggal_lahir,
             'ayah' => $ayah,
             'ibu' => $ibu,
@@ -35,6 +35,11 @@ class M_siswa extends CI_Model{
             'tahun1' => $tahun1
             );
         return $this->db->insert('murid',$data);
+    }
+
+    public function getData(){
+        $data = $this->db->get('murid');
+        return $data->result();
     }
 
 }

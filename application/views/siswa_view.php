@@ -20,18 +20,14 @@
                             <th>No Telepon</th>
                         </tr>
                     </thead>
+                    <?php foreach ($data as $row):?>
                     <tr>
-                        <td> 1 </td>
-                        <td> Iqbal Tanjung </td>
-                        <td> Jember </td>
-                        <td> 086535353574 </td>
+                        <td><?php echo $row->ID_MURID; ?></td>
+                        <td><?php echo $row->NAMA; ?></td>
+                        <td><?php echo $row->ALAMAT; ?></td>
+                        <td><?php echo $row->NOMOR_TELEPON; ?></td>
                     </tr>
-                    <tr>
-                        <td> 1 </td>
-                        <td> Iqbal Tanjung </td>
-                        <td> Jember </td>
-                        <td> 086535353574 </td>
-                    </tr>
+                    <?php endforeach;?>
                 </table>
 
             </div>
