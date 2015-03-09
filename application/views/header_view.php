@@ -24,7 +24,7 @@
                                     <li><a href="#">Mapel</a></li>
                                     <li><a href="#">Guru</a></li>
                                     <li><a href="#">Ekskul</a></li>
-                                    <li><a href="#">Kelas</a></li>
+                                    <li><a href="<?php echo site_url('kelas/index');?>">Kelas</a></li>
                                 </ul>
                             </li>
                         </ul>
