@@ -1,7 +1,9 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Siswa extends CI_Controller {
-
+    public function __construct(){
+        parent::__construct();
+    }
     /**
      * Index Page for this controller.
      *
@@ -53,9 +55,17 @@ class Siswa extends CI_Controller {
             $this->load->model('m_siswa');
             $this->m_siswa->tambah();
             $this->load->view('header_view');
-            $this->load->view('siswa_insert_view');
+            $this->load->view('siswa_view');
             $this->load->view('footer_view');
         }
+    }
+
+    public function delete($id)
+    {
+        $this->db->delete('murid', array('ID_MURID' => $id));
+        $this->load->view('header_view');
+        $this->load->view('siswa_view');
+        $this->load->view('footer_view');
     }
 }
 

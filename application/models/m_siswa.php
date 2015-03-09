@@ -42,4 +42,9 @@ class M_siswa extends CI_Model{
         return $data->result();
     }
 
+    public function deleteData($id)
+    {
+        $this->db->delete('murid', array('ID_MURID' => $id));
+    }
+
 }

@@ -18,6 +18,7 @@
                             <th>Nama</th>
                             <th>Alamat</th>
                             <th>No Telepon</th>
+                            <th>Pilihan</th>
                         </tr>
                     </thead>
                     <?php foreach ($data as $row):?>
@@ -26,6 +27,7 @@
                         <td><?php echo $row->NAMA; ?></td>
                         <td><?php echo $row->ALAMAT; ?></td>
                         <td><?php echo $row->NOMOR_TELEPON; ?></td>
+                        <td><?php echo '<div class="btn btn-info">Edit</div>'; echo '<a href="delete/'; echo $row->ID_MURID; echo '"><div class="btn btn-danger">Hapus</div></a>"'?></td>
                     </tr>
                     <?php endforeach;?>
                 </table>

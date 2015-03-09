@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/m_siswa.php" afterPath="$PROJECT_DIR$/application/models/m_siswa.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/siswa.php" afterPath="$PROJECT_DIR$/application/controllers/siswa.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/siswa_view.php" afterPath="$PROJECT_DIR$/application/views/siswa_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SI-MATASA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,12 +52,12 @@
       <file leaf-file-name="siswa.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/siswa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7010309" vertical-offset="527" max-vertical-offset="1156">
-              <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.79553264" vertical-offset="608" max-vertical-offset="1326">
+              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
               <folding>
-                <marker date="1425874501731" expanded="true" signature="954:1038" placeholder="select * fro..murid..." />
-                <marker date="1425874501731" expanded="true" signature="2050:2079" placeholder="/* End of fi..." />
-                <marker date="1425874501731" expanded="true" signature="2080:2133" placeholder="/* Location:..." />
+                <marker date="1425876213985" expanded="true" signature="1025:1109" placeholder="select * fro..murid..." />
+                <marker date="1425876213985" expanded="true" signature="2346:2375" placeholder="/* End of fi..." />
+                <marker date="1425876213985" expanded="true" signature="2376:2429" placeholder="/* Location:..." />
               </folding>
             </state>
           </provider>
@@ -67,9 +66,11 @@
       <file leaf-file-name="siswa_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/siswa_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.884615" vertical-offset="47" max-vertical-offset="697">
-              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-              <folding />
+            <state vertical-scroll-proportion="-10.615385" vertical-offset="149" max-vertical-offset="731">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <marker date="1425875750565" expanded="true" signature="1424:1480" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +78,8 @@
       <file leaf-file-name="m_siswa.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/m_siswa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.307692" vertical-offset="221" max-vertical-offset="850">
-              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state vertical-scroll-proportion="-15.846154" vertical-offset="268" max-vertical-offset="935">
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -236,12 +237,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/siswa.php&#10;m&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/models/m_siswa.php&#10;sis&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/siswa.php&#10;m_&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/siswa.php&#10;m&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/models/m_siswa.php&#10;siswa&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/siswa.php&#10;sis&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/siswa.php&#10;m_&#9;null&#9;null" />
   </component>
   <component name="RunManager">
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b4d808e2-8735-49cc-8290-7a5ab098bb7a" name="Default" comment="" />
@@ -323,28 +327,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/m_siswa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.307692" vertical-offset="221" max-vertical-offset="850">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state vertical-scroll-proportion="-15.846154" vertical-offset="268" max-vertical-offset="935">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/siswa_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.884615" vertical-offset="47" max-vertical-offset="697">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-          <folding />
+        <state vertical-scroll-proportion="-10.615385" vertical-offset="149" max-vertical-offset="731">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <marker date="1425875750565" expanded="true" signature="1424:1480" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/siswa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7010309" vertical-offset="527" max-vertical-offset="1156">
-          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.79553264" vertical-offset="608" max-vertical-offset="1326">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           <folding>
-            <marker date="1425874501731" expanded="true" signature="954:1038" placeholder="select * fro..murid..." />
-            <marker date="1425874501731" expanded="true" signature="2050:2079" placeholder="/* End of fi..." />
-            <marker date="1425874501731" expanded="true" signature="2080:2133" placeholder="/* Location:..." />
+            <marker date="1425876213985" expanded="true" signature="1025:1109" placeholder="select * fro..murid..." />
+            <marker date="1425876213985" expanded="true" signature="2346:2375" placeholder="/* End of fi..." />
+            <marker date="1425876213985" expanded="true" signature="2376:2429" placeholder="/* Location:..." />
           </folding>
         </state>
       </provider>
