@@ -37,6 +37,39 @@ class Siswa extends CI_Controller {
         $this->load->view('footer_view');
     }
 
+    public function edit($id)
+    {
+        $this->load->model('m_siswa');
+        $data['data'] = $this->m_siswa->getSingle($id);
+        $this->load->view('header_view');
+        $this->load->view('siswa_update_view',$data);
+        $this->load->view('footer_view');
+    }
+
+    public function update($id)
+    {
+        $this->load->model('m_siswa');
+        $data['data'] = $this->m_siswa->getSingle($id);
+
+        /*$this->form_validation->set_rules('id_murid', 'No Induk', 'required');
+        $this->form_validation->set_rules('nama', 'Nama', 'required');
+        $this->form_validation->set_rules('jenis_kelamin', 'Jenis Kelamin', 'required');
+        $this->form_validation->set_rules('username', 'Username', 'required');
+        $this->form_validation->set_rules('password', 'Password', 'required');
+        if ($this->form_validation->run() == FALSE)
+        {
+            $this->load->view('header_view');
+            $this->load->view('siswa_update_view');
+            $this->load->view('footer_view');
+        }
+        else
+        {*/
+            $this->load->model('m_siswa');
+            $this->m_siswa->updateData($id);
+            redirect('siswa/index');
+        //}
+    }
+
     public function save()
     {
         $this->form_validation->set_rules('id_murid', 'No Induk', 'required');
@@ -54,18 +87,14 @@ class Siswa extends CI_Controller {
         {
             $this->load->model('m_siswa');
             $this->m_siswa->tambah();
-            $this->load->view('header_view');
-            $this->load->view('siswa_view');
-            $this->load->view('footer_view');
+            redirect('siswa/index');
         }
     }
 
     public function delete($id)
     {
         $this->db->delete('murid', array('ID_MURID' => $id));
-        $this->load->view('header_view');
-        $this->load->view('siswa_view');
-        $this->load->view('footer_view');
+        redirect('siswa/index');
     }
 }
 
