@@ -57,6 +57,6 @@ class Mapel extends CI_Controller {
 	public function Delete($id)
 	{
 		$this->db->delete("mata_pelajaran",  array('id_mata_pelajaran' => $id ));
-		//redirect("mapel");
+		redirect("mapel");
 	}
 }

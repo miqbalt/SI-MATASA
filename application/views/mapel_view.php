@@ -3,7 +3,7 @@
     <div class="col-md-10 col-md-offset-1">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
-                <a href="<?php echo site_url('siswa/insert');?>" ><div class="btn btn-default">Tambah</div></a>
+                <a href="<?php echo site_url('mapel/insert');?>" ><div class="btn btn-default">Tambah</div></a>
             </div>
         </div>
         <br>
@@ -32,8 +32,8 @@
                  		<td><?php echo $data->ID_MATA_PELAJARAN; ?></td>
                  		<td><?php echo $data->NAMA_MATA_PELAJARAN; ?></td>
                  		<td><?php echo $data->NILAI_SKM; ?></td>
-                 		<td><a href="mapel/update/<?php echo $data->ID_MATA_PELAJARAN; ?>"><button class="btn" >Update</button></a>
-                 		<a href="mapel/delete/<?php $data->ID_MATA_PELAJARAN ?>"><button class="btn btn-danger">Delete</button></a>
+                 		<td><a href="update/<?php echo $data->ID_MATA_PELAJARAN; ?>"><button class="btn" >Update</button></a>
+                 		<a href="delete/<?php echo $data->ID_MATA_PELAJARAN; ?>"><button class="btn btn-danger">Delete</button></a>
                  		</td>
                  	</tr>
                  	<?php

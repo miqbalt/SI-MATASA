@@ -21,8 +21,8 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mengelola Data<span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="<?php echo site_url('siswa/index');?>">Siswa</a></li>
-                                    <li><a href="#">Mapel</a></li>
-                                    <li><a href="#">Guru</a></li>
+                                    <li><a href="<?php echo site_url('mapel/index');?>">Mapel</a></li>
+                                    <li><a href="<?php echo site_url('guru/index');?>">Guru</a></li>
                                     <li><a href="#">Ekskul</a></li>
                                     <li><a href="<?php echo site_url('kelas/index');?>">Kelas</a></li>
                                 </ul>
