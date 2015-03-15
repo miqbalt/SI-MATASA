@@ -79,7 +79,7 @@ class M_siswa extends CI_Model{
             'tahun1' => $tahun1
         );
 
-        print_r($data);
+        //print_r($data);
         return $this->db->update('murid', $data, array('id_murid' => $id));
     }
 

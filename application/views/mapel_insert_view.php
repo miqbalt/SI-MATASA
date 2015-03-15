@@ -36,7 +36,6 @@
             </div>
         </div>
          <div class="container-fluid">
-            <?php echo $hasil; ?>
         </div>
     </div>
 </div>

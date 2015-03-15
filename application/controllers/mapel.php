@@ -30,28 +30,24 @@ class Mapel extends CI_Controller {
 			else
 				$data['hasil'] = "Upload Gagal";
 		}
+		redirect('mapel_view');
+	}
 
-		$this->load->view("header_view");
-		$this->load->view("mapel_insert_view",$data);
-		$this->load->view("footer_view");
+	public function Edit($id)
+	{
+		$this->load->model('m_mapel');
+		$data['data'] = $this->m_mapel->getSingle($id);
+		$this->load->view('header_view');
+		$this->load->view('mapel_update_view',$data);
+		$this->load->view('footer_view');
 	}
 
 	public function Update($id)
 	{
-		if($_POST == NULL)
-		{
-			$this->load->model("m_mapel");
-			$data['mapel'] = $this->m_mapel->select($id);
-			$this->load->view("header_view");
-			$this->load->view("mapel_update_view",$data);
-			$this->load->view("footer_view");
-		}
-		else
-		{
-			$this->load->model("m_mapel");
-			$this->m_mapel->update($id);
-			redirect("mapel");
-		}
+		$this->load->model('m_mapel');
+		$data['data'] = $this->m_mapel->getSingle($id);
+		$this->m_mapel->updateData($id);
+		redirect('mapel/index');
 	}
 
 	public function Delete($id)

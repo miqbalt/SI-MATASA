@@ -21,18 +21,20 @@ class M_mapel extends CI_Model {
 		return $this->db->get('mata_pelajaran')->result();
 	}
 
-	function update($id)
+	function updateData($id)
 	{
-		$id = $this->input->post("id_mapel");
 		$nama = $this->input->post("nama");
 		$skm = $this->input->post("nilai_skm");
 		$data = array (
-			'id_mata_pelajaran' => $id,
 			'nama_mata_pelajaran' => $nama,
 			'nilai_skm' => $skm
 			);
-		$this->db->where("id_mata_pelajaran", $id);
-		$this->db->update("mata_pelajaran",$data);
+		return $this->db->update('mata_pelajaran', $data, array('id_mata_pelajaran' => $id));
+	}
+
+	public function getSingle($id){
+		$data = $this->db->get_where('mata_pelajaran', array('id_mata_pelajaran' => $id));
+		return $data->row_array();
 	}
 
 	function select($id)
