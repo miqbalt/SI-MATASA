@@ -30,7 +30,7 @@
                         <div class="col-md-6">
                              <select class="form-control" name="jenis_kelamin">
                                  <option value="laki-laki">Laki-laki</option>
-                                 <option value="perepuan">Perempuan</option>
+                                 <option value="perempuan">Perempuan</option>
                              </select>
                         </div>
                     </div>

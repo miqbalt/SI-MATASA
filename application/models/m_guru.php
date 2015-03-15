@@ -2,7 +2,7 @@
 
 class M_guru extends CI_Model {
 
-	public function Insert()
+	public function insert()
 	{
 		$id = $this->input->post("id_guru");
 		$mapel = $this->input->post("");
@@ -30,4 +30,26 @@ class M_guru extends CI_Model {
 			);
 		$this->db->insert("guru",$data);
 	}
+
+
+    public function getData(){
+        $data = $this->db->get('guru');
+        return $data->result();
+    }
+
+    public function getSingle($id){
+        $data = $this->db->get_where('guru', array('id_guru' => $id));
+        return $data->row_array();
+    }
+
+    public function getMapel($idmapel){
+        $data = $this->db->get_where('mata_pelajaran', array ('id_mata_pelajaran' => $idmapel));
+        if($data->num_rows() > 0)
+        {
+            $row =  $data->row_array();
+
+            return $namapel = $row['nama_mata_pelajaran'];
+        }
+    }
+
 }
