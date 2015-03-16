@@ -17,8 +17,10 @@ class Guru extends CI_Controller{
 
 	public function insert()
 	{
+        $this->load->model('m_mapel');
+        $data['data'] = $this->m_mapel->getData();
         $this->load->view('header_view');
-        $this->load->view('guru_view');
+        $this->load->view('guru_insert_view',$data);
         $this->load->view('footer_view');
 		//if($this->input->post('submit'))
 		//{
@@ -35,6 +37,13 @@ class Guru extends CI_Controller{
 		//redirect("guru_view");
 
 	}
+
+    public function save()
+    {
+        $this->load->model('m_guru');
+        $this->m_guru->insert();
+        redirect('guru');
+    }
 
     public function delete($id)
     {

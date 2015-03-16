@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d808e2-8735-49cc-8290-7a5ab098bb7a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/mapel.php" afterPath="$PROJECT_DIR$/application/controllers/mapel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/mapel_insert_view.php" afterPath="$PROJECT_DIR$/application/views/mapel_insert_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/mapel_view.php" afterPath="$PROJECT_DIR$/application/views/mapel_view.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\SI-MATASA\application\views\guru_view.php" afterPath="$PROJECT_DIR$/application/views/guru_insert_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/guru.php" afterPath="$PROJECT_DIR$/application/controllers/guru.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/guru_list_view.php" afterPath="$PROJECT_DIR$/application/views/guru_list_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/m_guru.php" afterPath="$PROJECT_DIR$/application/models/m_guru.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/m_mapel.php" afterPath="$PROJECT_DIR$/application/models/m_mapel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SI-MATASA.iws" />
@@ -30,31 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header_view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/header_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="748">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mapel_insert_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/mapel_insert_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.923077" vertical-offset="132" max-vertical-offset="782">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state vertical-scroll-proportion="-16.5" vertical-offset="200" max-vertical-offset="782">
+              <caret line="37" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mapel_view.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mapel_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/mapel_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3281787" vertical-offset="404" max-vertical-offset="986">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+            <state vertical-scroll-proportion="-15.846154" vertical-offset="404" max-vertical-offset="986">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,16 +57,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="663">
               <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="siswa.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/siswa.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1343" max-vertical-offset="1819">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,28 +75,8 @@
       <file leaf-file-name="m_mapel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/m_mapel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.76923" vertical-offset="268" max-vertical-offset="918">
-              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="siswa_update_view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/siswa_update_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2397">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m_siswa.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/m_siswa.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="982" max-vertical-offset="1632">
-              <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+            <state vertical-scroll-proportion="-16.5" vertical-offset="268" max-vertical-offset="1003">
+              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -123,8 +85,48 @@
       <file leaf-file-name="guru.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/guru.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="833">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="-19.115385" vertical-offset="336" max-vertical-offset="986">
+              <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m_guru.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/m_guru.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="1122">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m_siswa.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/m_siswa.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="391" max-vertical-offset="1632">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guru_insert_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/guru_insert_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.038462" vertical-offset="51" max-vertical-offset="1717">
+              <caret line="26" column="120" selection-start-line="26" selection-start-column="120" selection-end-line="26" selection-end-column="120" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guru_list_view.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/guru_list_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3427065" vertical-offset="281" max-vertical-offset="867">
+              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -149,10 +151,14 @@
         <option value="$PROJECT_DIR$/application/controllers/siswa.php" />
         <option value="$PROJECT_DIR$/application/models/m_siswa.php" />
         <option value="$PROJECT_DIR$/application/views/mapel_update_view.php" />
-        <option value="$PROJECT_DIR$/application/models/m_mapel.php" />
         <option value="$PROJECT_DIR$/application/views/mapel_insert_view.php" />
         <option value="$PROJECT_DIR$/application/controllers/mapel.php" />
         <option value="$PROJECT_DIR$/application/views/mapel_view.php" />
+        <option value="$PROJECT_DIR$/application/controllers/guru.php" />
+        <option value="$PROJECT_DIR$/application/models/m_mapel.php" />
+        <option value="$PROJECT_DIR$/application/views/guru_insert_view.php" />
+        <option value="$PROJECT_DIR$/application/models/m_guru.php" />
+        <option value="$PROJECT_DIR$/application/views/guru_list_view.php" />
       </list>
     </option>
   </component>
@@ -301,7 +307,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="mapel&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_view.php&#10;insert&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_insert_view.php&#10;m_&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/models/m_mapel.php&#10;siswa&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/siswa_update_view.php&#10;m&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_update_view.php&#10;mapel_vi&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_view.php&#10;m_s&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/models/m_siswa.php&#10;m_mapel&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/models/m_mapel.php&#10;m_siswa&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/models/m_siswa.php&#10;sis&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/siswa.php&#10;m_mape&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/models/m_mapel.php&#10;mape_up&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_update_view.php&#10;mapel_&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_insert_view.php&#10;ma&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/mapel.php&#10;map&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_update_view.php&#10;mav&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_view.php&#10;mapel_v&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_view.php&#10;head&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/header_view.php&#10;guru&#9;null&#9;null&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/login_view.php&#10;kelas&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/kelas.php&#10;header_v&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/header_view.php&#10;s&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/siswa_view.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/guru_list_view.php&#10;m_siswa&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/models/m_siswa.php&#10;m_mapel&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/models/m_mapel.php&#10;m_gu&#9;null&#9;null&#10;guru&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/guru.php&#10;insert&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_insert_view.php&#10;gur&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/guru.php&#10;mapel&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_view.php&#10;m_&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/models/m_mapel.php&#10;siswa&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/siswa_update_view.php&#10;m&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_update_view.php&#10;mapel_vi&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_view.php&#10;m_s&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/models/m_siswa.php&#10;sis&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/siswa.php&#10;m_mape&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/models/m_mapel.php&#10;mape_up&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_update_view.php&#10;mapel_&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_insert_view.php&#10;ma&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/mapel.php&#10;map&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_update_view.php&#10;mav&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_view.php&#10;mapel_v&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/mapel_view.php&#10;head&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/header_view.php&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/login_view.php&#10;kelas&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/controllers/kelas.php&#10;header_v&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/header_view.php&#10;s&#9;FILE&#9;file://C:/xampp/htdocs/SI-MATASA/application/views/siswa_view.php" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
@@ -612,26 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/guru.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="833">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/header_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="748">
           <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/m_siswa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="982" max-vertical-offset="1632">
-          <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -660,14 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/m_mapel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.76923" vertical-offset="268" max-vertical-offset="918">
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/mapel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.5" vertical-offset="438" max-vertical-offset="1020">
@@ -676,18 +658,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/mapel_insert_view.php">
+    <entry file="file://$PROJECT_DIR$/application/views/mapel_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.923077" vertical-offset="132" max-vertical-offset="782">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state vertical-scroll-proportion="-15.846154" vertical-offset="404" max-vertical-offset="986">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/mapel_view.php">
+    <entry file="file://$PROJECT_DIR$/application/views/mapel_insert_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3281787" vertical-offset="404" max-vertical-offset="986">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        <state vertical-scroll-proportion="-16.5" vertical-offset="200" max-vertical-offset="782">
+          <caret line="37" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_siswa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="391" max-vertical-offset="1632">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_mapel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.5" vertical-offset="268" max-vertical-offset="1003">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/guru_insert_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="51" max-vertical-offset="1717">
+          <caret line="26" column="120" selection-start-line="26" selection-start-column="120" selection-end-line="26" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_guru.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/guru.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.115385" vertical-offset="336" max-vertical-offset="986">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/guru_list_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3427065" vertical-offset="281" max-vertical-offset="867">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
           <folding />
         </state>
       </provider>

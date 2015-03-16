@@ -5,7 +5,7 @@ class M_guru extends CI_Model {
 	public function insert()
 	{
 		$id = $this->input->post("id_guru");
-		$mapel = $this->input->post("");
+		$mapel = $this->input->post("id_mata_pelajaran");
 		$nama = $this->input->post("nama");
 		$nip = $this->input->post("nip");
 		$jk = $this->input->post("jenis_kelamin");
@@ -18,7 +18,7 @@ class M_guru extends CI_Model {
 
 		$data = array (
 				'id_guru' => $id,
-				'id_mata_pelajaran' => 0,
+				'id_mata_pelajaran' => $mapel,
 				'nama_guru' => $nama,
 				'nip' => $nip,
 				'username_guru' => $user,
@@ -26,7 +26,8 @@ class M_guru extends CI_Model {
 				'alamat_guru' => $alamat,
 				'nomor_telepon_guru' => $no,
 				'email_guru' => $email,
-				'jabatan_guru' => $jabatan
+				'jabatan_guru' => $jabatan,
+				'jenis_kelamin_guru' => $jk
 			);
 		$this->db->insert("guru",$data);
 	}

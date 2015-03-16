@@ -23,24 +23,22 @@
                     <tr class="success">
                         <th>ID Guru</th>
                         <th>Nama</th>
-                        <!--<th>Nama Mapel</th>-->
+                        <th>Nama Mapel</th>
                         <th>Alamat</th>
                         <th>No Telepon</th>
                         <th>Jenis Kelamin</th>
-                        <th>Email</th>
                         <th>Jabatan</th>
+                        <th>Pilihan</th>
                     </tr>
                     </thead>
                     <?php foreach ($data as $row):?>
                         <tr>
                             <td><?php echo $row->ID_GURU; ?></td>
                             <td><?php echo $row->NAMA_GURU; ?></td>
-                            <!--<td><//?php
-                                echo getMapel($row->ID_MATA_PELAJARAN); ?></td>-->
+                            <td><?php echo $row->ID_MATA_PELAJARAN; ?></td>
                             <td><?php echo $row->ALAMAT_GURU; ?></td>
                             <td><?php echo $row->NOMOR_TELEPON_GURU; ?></td>
                             <td><?php echo $row->JENIS_KELAMIN_GURU; ?></td>
-                            <td><?php echo $row->EMAIL_GURU; ?></td>
                             <td><?php echo $row->JABATAN_GURU; ?></td>
                             <td><?php echo '<a href="edit/'; echo $row->ID_GURU;  echo '"><div class="btn btn-info">Edit</div></a>'; echo '<a href="delete/'; echo $row->ID_GURU; echo '"><div class="btn btn-danger">Hapus</div></a>"'?></td>
                         </tr>

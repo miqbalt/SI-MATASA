@@ -37,6 +37,11 @@ class M_mapel extends CI_Model {
 		return $data->row_array();
 	}
 
+	public function getData(){
+		$data = $this->db->get('mata_pelajaran');
+		return $data->result_array();
+	}
+
 	function select($id)
 	{
 		return $this->db->get_where("mata_pelajaran",  array('id_mata_pelajaran' => $id))->row();
