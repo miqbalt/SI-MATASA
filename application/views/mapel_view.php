@@ -32,8 +32,8 @@
                  		<td><?php echo $data->ID_MATA_PELAJARAN; ?></td>
                  		<td><?php echo $data->NAMA_MATA_PELAJARAN; ?></td>
                  		<td><?php echo $data->NILAI_SKM; ?></td>
-                 		<td><a href="edit/<?php echo $data->ID_MATA_PELAJARAN; ?>"><button class="btn btn-info" >Update</button></a>
-                 		<a href="delete/<?php echo $data->ID_MATA_PELAJARAN; ?>"><button class="btn btn-danger">Delete</button></a>
+                 		<td><a href="mapel/edit/<?php echo $data->ID_MATA_PELAJARAN; ?>"><button class="btn btn-info" >Update</button></a>
+                 		<a href="mapel/delete/<?php echo $data->ID_MATA_PELAJARAN; ?>"><button class="btn btn-danger">Delete</button></a>
                  		</td>
                  	</tr>
                  	<?php

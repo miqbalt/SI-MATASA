@@ -21,19 +21,13 @@ class Mapel extends CI_Controller {
         $this->load->view('header_view');
         $this->load->view('mapel_insert_view');
         $this->load->view('footer_view');
-		$data['hasil'] = "";
-		if($this->input->post('submit'))
-		{
-			$this->load->model("m_mapel");
-			$cek = $this->m_mapel->insert();
-			if($cek)
-			{
-				$data['hasil'] = "Upload sukses";
-                redirect('mapel_view');
-			}
-			else
-				$data['hasil'] = "Upload Gagal";
-		}
+	}
+
+	public function Save()
+	{
+		$this->load->model('m_mapel');
+		$this->m_mapel->insert();
+		redirect('mapel');
 	}
 
 	public function Edit($id)
@@ -56,6 +50,6 @@ class Mapel extends CI_Controller {
 	public function Delete($id)
 	{
 		$this->db->delete("mata_pelajaran",  array('id_mata_pelajaran' => $id ));
-		redirect("mapel");
+		redirect('mapel');
 	}
 }

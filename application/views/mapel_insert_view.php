@@ -7,7 +7,7 @@
                 Tambah Siswa
             </div>
             <div class="panel-body">
-                <?php echo form_open("mapel/insert"); ?>
+                <?php echo form_open("mapel/Save"); ?>
                 <div class="form-group">
                             <label class="col-md-4 control-label">ID Mapel</label>
                             <div class="col-md-6">
