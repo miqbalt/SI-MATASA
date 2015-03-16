@@ -2,7 +2,10 @@
 
 
 class Guru extends CI_Controller{
-
+    public $namapel;
+    public function __construct(){
+        parent::__construct();
+    }
 	public function index()
 	{
         $this->load->model('m_guru');
@@ -10,7 +13,6 @@ class Guru extends CI_Controller{
 		$this->load->view("header_view");
 		$this->load->view("guru_list_view",$data);
 		$this->load->view("footer_view");
-        //$namapel = getMapel()
 	}
 
 	public function insert()
@@ -33,4 +35,10 @@ class Guru extends CI_Controller{
 		//redirect("guru_view");
 
 	}
+
+    public function delete($id)
+    {
+        $this->db->delete('GURU', array('ID_GURU' => $id));
+        redirect('guru/index');
+    }
 }

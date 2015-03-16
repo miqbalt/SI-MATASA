@@ -52,4 +52,9 @@ class M_guru extends CI_Model {
         }
     }
 
+    public function deleteData($id)
+    {
+        $this->db->delete('guru', array('ID_GURU' => $id));
+    }
+
 }

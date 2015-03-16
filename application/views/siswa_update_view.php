@@ -3,7 +3,7 @@
     <div class="col-md-6 col-md-offset-3">
         <div class="panel panel-default">
             <div class="panel-heading">
-                Tambah Siswa
+                Rubah Data Siswa
             </div>
             <?php echo form_open('siswa/update/'.$data['ID_MURID']);?>
             <div class="panel-body">
@@ -32,8 +32,8 @@
                     <label class="col-md-4 cotrol-label">Jenis Kelamin</label>
                     <div class="col-md-6">
                         <select class="form-control" name="jenis_kelamin">
-                            <option value="laki-laki">Laki-laki</option>
-                            <option value="perepuan">Perempuan</option>
+                            <option value="L">Laki-laki</option>
+                            <option value="P">Perempuan</option>
                         </select>
                     </div>
                 </div>

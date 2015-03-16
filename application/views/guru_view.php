@@ -26,8 +26,8 @@
                         <label class="col-md-4 cotrol-label">Jenis Kelamin</label>
                         <div class="col-md-6">
                              <select class="form-control" name="jenis_kelamin">
-                                 <option value="laki-laki">Laki-laki</option>
-                                 <option value="perepuan">Perempuan</option>
+                                 <option value="L">Laki-laki</option>
+                                 <option value="P">Perempuan</option>
                              </select>
                         </div>
                     </div>
@@ -64,8 +64,14 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Jabatan</label>
                         <div class="col-md-6">
-                            <input class="form-control" placeholder="Jabatan" name="jabatan" type="text">
+                            <select class="form-control" name="jabatan">
+                                <option value="Guru">Guru</option>
+                                <option value="Tata Usaha">Tata Usaha</option>
+                                <option value="Bimbingan Kounseling">Bimbingan Kounseling</option>
+                                <option value="Kepala Sekolah">Kepala Sekolah</option>
+                            </select>
                         </div>
+                    </div>
                     </div>
                     <div class="form-group">
                         <div class="col-md-6 col-md-offset-4">

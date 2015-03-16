@@ -18,6 +18,9 @@ class Mapel extends CI_Controller {
 
 	public function Insert()
 	{
+        $this->load->view('header_view');
+        $this->load->view('mapel_insert_view');
+        $this->load->view('footer_view');
 		$data['hasil'] = "";
 		if($this->input->post('submit'))
 		{
@@ -26,11 +29,11 @@ class Mapel extends CI_Controller {
 			if($cek)
 			{
 				$data['hasil'] = "Upload sukses";
+                redirect('mapel_view');
 			}
 			else
 				$data['hasil'] = "Upload Gagal";
 		}
-		redirect('mapel_view');
 	}
 
 	public function Edit($id)

@@ -29,8 +29,8 @@
                         <label class="col-md-4 cotrol-label">Jenis Kelamin</label>
                         <div class="col-md-6">
                              <select class="form-control" name="jenis_kelamin">
-                                 <option value="laki-laki">Laki-laki</option>
-                                 <option value="perempuan">Perempuan</option>
+                                 <option value="L">Laki-laki</option>
+                                 <option value="P">Perempuan</option>
                              </select>
                         </div>
                     </div>
