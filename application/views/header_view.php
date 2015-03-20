@@ -25,6 +25,7 @@
                                     <li><a href="<?php echo site_url('guru/index');?>">Guru</a></li>
                                     <li><a href="#">Ekskul</a></li>
                                     <li><a href="<?php echo site_url('kelas/index');?>">Kelas</a></li>
+									<li><a href="<?php echo site_url('jenisnilai/index');?>">JenisPenilaian</a></li>
                                 </ul>
                             </li>
                         </ul>
