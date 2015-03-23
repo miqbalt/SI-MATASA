@@ -3,7 +3,7 @@
     <div class="col-md-6 col-md-offset-3">
         <div class="panel panel-default">
             <div class="panel-heading">
-                Tunjuk Wali Kelas
+                Pilih Wali Kelas
             </div>
             <div class="panel-body">
                 <?php echo form_open('tunjukKelas/save');?>
@@ -36,7 +36,7 @@
                 <div class="form-group">
                     <div class="col-md-6 col-md-offset-4">
                         <button type="submit" class="btn btn-primary">
-                            Submit
+                            Pilih
                         </button>
                     </div>
                 </div>
