@@ -2,8 +2,11 @@
 <div class="row">
     <div class="col-md-10 col-md-offset-1">
         <div class="row">
-            <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-3 col-md-offset-1">
                 <a href="<?php echo site_url('mapel/insert');?>" ><div class="btn btn-default">Tambah</div></a>
+            </div>
+            <div class="col-md-5">
+                <h4>Halaman Mengelola Data Mapel</h4>
             </div>
         </div>
         <br>
@@ -32,8 +35,7 @@
                  		<td><?php echo $data->ID_MATA_PELAJARAN; ?></td>
                  		<td><?php echo $data->NAMA_MATA_PELAJARAN; ?></td>
                  		<td><?php echo $data->NILAI_SKM; ?></td>
-                 		<td><a href="mapel/edit/<?php echo $data->ID_MATA_PELAJARAN; ?>"><button class="btn btn-info" >Update</button></a>
-                 		<a href="mapel/delete/<?php echo $data->ID_MATA_PELAJARAN; ?>"><button class="btn btn-danger">Delete</button></a>
+                        <td><?php echo '<a href="edit/'; echo $data->ID_MATA_PELAJARAN;  echo '"><div class="btn btn-info">Edit</div></a>'; echo '<a href="delete/'; echo $data->ID_MATA_PELAJARAN; echo '"><div class="btn btn-danger">Hapus</div></a>"'?></td>
                  		</td>
                  	</tr>
                  	<?php

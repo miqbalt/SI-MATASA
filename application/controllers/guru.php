@@ -38,6 +38,27 @@ class Guru extends CI_Controller{
 
 	}
 
+    public function edit($id)
+    {
+        $this->load->model('m_guru');
+        $data['data'] = $this->m_guru->getSingle($id);
+        $this->load->model('m_mapel');
+        $data['mapel'] = $this->m_mapel->getData();
+        $this->load->view('header_view');
+        $this->load->view('guru_update_view',$data);
+        $this->load->view('footer_view');
+    }
+
+    public function update($id)
+    {
+        $this->load->model('m_guru');
+        $data['data'] = $this->m_guru->getSingle($id);
+        $this->load->model('m_guru');
+        $this->m_guru->updateData($id);
+        redirect('guru/index');
+
+    }
+
     public function save()
     {
         $this->load->model('m_guru');

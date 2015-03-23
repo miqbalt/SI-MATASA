@@ -98,19 +98,34 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Tahun 1</label>
                         <div class="col-md-6">
-                            <input class="form-control" placeholder="Tahun 1" name="tahun1" type="text">
+                            <select class="form-control" name="tahun1">
+                                <?PHP print_r($data);?>
+                                <?php foreach($data as $row):?>
+                                    <option value="<?php echo $row->ID_KELAS;?>"><?php echo $row->NAMA_KELAS;?></option>
+                                <?php endforeach?>
+                            </select>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-md-4 control-label">Tahun 2</label>
                         <div class="col-md-6">
-                            <input class="form-control" placeholder="Tahun 2" name="tahun2" type="text">
+                            <select class="form-control" name="tahun2">
+                                <?PHP print_r($data);?>
+                                <?php foreach($data as $row):?>
+                                    <option value="<?php echo $row->ID_KELAS;?>"><?php echo $row->NAMA_KELAS;?></option>
+                                <?php endforeach?>
+                            </select>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-md-4 control-label">Tahun 3</label>
                         <div class="col-md-6">
-                            <input class="form-control" placeholder="Tahun 3" name="tahun3" type="text">
+                            <select class="form-control" name="tahun3">
+                                <?PHP print_r($data);?>
+                                <?php foreach($data as $row):?>
+                                    <option value="<?php echo $row->ID_KELAS;?>"><?php echo $row->NAMA_KELAS;?></option>
+                                <?php endforeach?>
+                            </select>
                         </div>
                     </div>
                     <div class="form-group">

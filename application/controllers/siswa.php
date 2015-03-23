@@ -32,8 +32,10 @@ class Siswa extends CI_Controller {
 
     public  function insert()
     {
+        $this->load->model('m_kelas');
+        $data['data'] = $this->m_kelas->getData();
         $this->load->view('header_view');
-        $this->load->view('siswa_insert_view');
+        $this->load->view('siswa_insert_view',$data);
         $this->load->view('footer_view');
     }
 

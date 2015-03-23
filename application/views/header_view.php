@@ -23,10 +23,15 @@
                                     <li><a href="<?php echo site_url('siswa/index');?>">Siswa</a></li>
                                     <li><a href="<?php echo site_url('mapel/index');?>">Mapel</a></li>
                                     <li><a href="<?php echo site_url('guru/index');?>">Guru</a></li>
-                                    <li><a href="#">Ekskul</a></li>
                                     <li><a href="<?php echo site_url('kelas/index');?>">Kelas</a></li>
 									<li><a href="<?php echo site_url('jenisnilai/index');?>">JenisPenilaian</a></li>
                                 </ul>
+                            </li>
+                            <li>
+                               <a href="#">Transkrip</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo site_url('tunjukKelas/index');?>">Tunjuk Wali Kelas</a>
                             </li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">

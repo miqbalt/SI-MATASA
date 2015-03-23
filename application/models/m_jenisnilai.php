@@ -8,7 +8,7 @@ class M_jenisnilai extends CI_Model {
 		$jenisnilai = $this->input->post("jenisnilai");
 		$data = array (
 			'id_jenisnilai' => $id,
-			'jenisnilai' => $jenisnilai,
+			'jenis_nilai' => $jenisnilai,
 			);
 
 		$this->db->insert("jenisnilai",$data);
@@ -26,7 +26,7 @@ class M_jenisnilai extends CI_Model {
 
 	public function getData(){
 		$data = $this->db->get('jenisnilai');
-		return $data->result_array();
+		return $data->result();
 	}
 
 	function select($id)
