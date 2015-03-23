@@ -3,7 +3,7 @@
     <div class="col-md-6 col-md-offset-3">
         <div class="panel panel-default">
             <div class="panel-heading">
-                Update Guru
+                Ubah Data Guru
             </div>
             <div class="panel-body">
                 <?php echo form_open('guru/update/'.$data['ID_GURU']);?>
@@ -80,8 +80,8 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="col-md-6 col-md-offset-4">
-                        <input class="btn btn-success" type="submit" name="submit" value="Submit">
+                    <div class="col-md-6 col-md-offset-10">
+                        <input class="btn btn-success" type="submit" name="submit" value="Simpan">
                     </div>
                 </div>
                 </form>
