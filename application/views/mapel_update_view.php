@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="col-md-6 col-md-offset-4">
+                    <div class="col-md-6 col-md-offset-10">
                         <input class="btn btn-success" type="submit" name="submit" value="Simpan">
                     </div>
                 </div>

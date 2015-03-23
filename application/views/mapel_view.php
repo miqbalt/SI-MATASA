@@ -35,7 +35,10 @@
                  		<td><?php echo $data->ID_MATA_PELAJARAN; ?></td>
                  		<td><?php echo $data->NAMA_MATA_PELAJARAN; ?></td>
                  		<td><?php echo $data->NILAI_SKM; ?></td>
-                        <td><?php echo '<a href="edit/'; echo $data->ID_MATA_PELAJARAN;  echo '"><div class="btn btn-info">Edit</div></a>'; echo '<a href="delete/'; echo $data->ID_MATA_PELAJARAN; echo '"><div class="btn btn-danger">Hapus</div></a>"'?></td>
+                        <td><?php echo '<a href="edit/'; echo $data->ID_MATA_PELAJARAN;  echo '">
+                        <div class="btn btn-info colmd-10 col-md-offset-3">Edit</div></a>'; echo '
+                        <a href="delete/'; echo $data->ID_MATA_PELAJARAN; echo '">
+                        <div class="btn btn-danger colmd-10 col-md-offset-1">Hapus</div></a>"'?></td>
                  		</td>
                  	</tr>
                  	<?php
