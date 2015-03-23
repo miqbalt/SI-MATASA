@@ -4,7 +4,7 @@
     <div class="col-md-6 col-md-offset-3">
         <div class="panel panel-default">
             <div class="panel-heading">
-                Update Mata Pelajaran
+                Edit Mata Pelajaran
             </div>
             <div class="panel-body">
                 <?php echo form_open("mapel/update/".$data['ID_MATA_PELAJARAN']); ?>
@@ -22,7 +22,7 @@
                 </div>
                 <div class="form-group">
                     <div class="col-md-6 col-md-offset-4">
-                        <input class="btn btn-success" type="submit" name="submit" value="Submit">
+                        <input class="btn btn-success" type="submit" name="submit" value="Simpan">
                     </div>
                 </div>
                 </form>

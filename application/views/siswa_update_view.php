@@ -3,7 +3,7 @@
     <div class="col-md-6 col-md-offset-3">
         <div class="panel panel-default">
             <div class="panel-heading">
-                Ubah Data Siswa
+                Edit Data Siswa
             </div>
             <?php echo form_open('siswa/update/'.$data['ID_MURID']);?>
             <div class="panel-body">
