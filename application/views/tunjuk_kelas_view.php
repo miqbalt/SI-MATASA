@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-4 control-label">tahun Angkatan</label>
+                    <label class="col-md-4 control-label">Tahun Angkatan</label>
                     <div class="col-md-6">
                         <input type="text" class="form-control" name="tahun_angkatan">
                     </div>
