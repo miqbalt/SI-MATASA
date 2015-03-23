@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="col-md-6 col-md-offset-4">
+                    <div class="col-md-10 col-md-offset-10">
                         <button type="submit" class="btn btn-primary">
                             Pilih
                         </button>
