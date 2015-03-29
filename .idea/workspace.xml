@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d808e2-8735-49cc-8290-7a5ab098bb7a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/tunjukKelas.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/guru.php" afterPath="$PROJECT_DIR$/application/controllers/guru.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\SI-MATASA\Dokumentasi\~$PL MATASA.doc" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/guru_list_view.php" afterPath="$PROJECT_DIR$/application/views/guru_list_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/header_view.php" afterPath="$PROJECT_DIR$/application/views/header_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/jenisnilai_view.php" afterPath="$PROJECT_DIR$/application/views/jenisnilai_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/kelas_view.php" afterPath="$PROJECT_DIR$/application/views/kelas_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/m_guru.php" afterPath="$PROJECT_DIR$/application/models/m_guru.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/m_jenisnilai.php" afterPath="$PROJECT_DIR$/application/models/m_jenisnilai.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/mapel_view.php" afterPath="$PROJECT_DIR$/application/views/mapel_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/siswa.php" afterPath="$PROJECT_DIR$/application/controllers/siswa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/siswa_insert_view.php" afterPath="$PROJECT_DIR$/application/views/siswa_insert_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/siswa_view.php" afterPath="$PROJECT_DIR$/application/views/siswa_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SI-MATASA.iws" />
@@ -42,8 +33,8 @@
       <file leaf-file-name="mapel_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/mapel_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923" vertical-offset="17" max-vertical-offset="1020">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1071">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -52,7 +43,7 @@
       <file leaf-file-name="jenisnilai_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/jenisnilai_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1003">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
               <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
               <folding />
             </state>
@@ -62,18 +53,18 @@
       <file leaf-file-name="header_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/header_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231" vertical-offset="255" max-vertical-offset="850">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="850">
               <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tunjuk_kelas_view.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tunjuk_kelas_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/tunjuk_kelas_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17926186" vertical-offset="0" max-vertical-offset="1751">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="340" max-vertical-offset="1751">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -82,7 +73,7 @@
       <file leaf-file-name="tunjukKelas.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/tunjukKelas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.115385" vertical-offset="64" max-vertical-offset="782">
+            <state vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="782">
               <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding />
             </state>
@@ -92,19 +83,22 @@
       <file leaf-file-name="m_tunjukKelas.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/m_tunjukKelas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.76923" vertical-offset="166" max-vertical-offset="816">
+            <state vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="816">
               <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guru_list_view.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="guru_list_view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/guru_list_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="884">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-              <folding />
+            <state vertical-scroll-proportion="0.68717045" vertical-offset="187" max-vertical-offset="884">
+              <caret line="39" column="280" selection-start-line="39" selection-start-column="280" selection-end-line="39" selection-end-column="280" />
+              <folding>
+                <marker date="1427644044197" expanded="true" signature="1383:1485" placeholder="SELECT mata_..mata_pelajaran..." />
+                <marker date="1427644044197" expanded="true" signature="1383:1486" placeholder="SELECT mata_..mata_pelajaran..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,7 +106,7 @@
       <file leaf-file-name="siswa_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/siswa_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="765">
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="765">
               <caret line="9" column="18" selection-start-line="7" selection-start-column="12" selection-end-line="9" selection-end-column="18" />
               <folding />
             </state>
@@ -122,7 +116,7 @@
       <file leaf-file-name="m_jenisnilai.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/m_jenisnilai.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.269231" vertical-offset="174" max-vertical-offset="782">
+            <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="782">
               <caret line="29" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
               <folding />
             </state>
@@ -132,8 +126,8 @@
       <file leaf-file-name="kelas_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/kelas_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="697">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state vertical-scroll-proportion="-9.961538" vertical-offset="183" max-vertical-offset="765">
+              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -172,9 +166,9 @@
         <option value="$PROJECT_DIR$/application/views/siswa_view.php" />
         <option value="$PROJECT_DIR$/application/views/mapel_view.php" />
         <option value="$PROJECT_DIR$/application/views/jenisnilai_view.php" />
-        <option value="$PROJECT_DIR$/application/views/guru_list_view.php" />
-        <option value="$PROJECT_DIR$/application/views/kelas_view.php" />
         <option value="$PROJECT_DIR$/application/views/tunjuk_kelas_view.php" />
+        <option value="$PROJECT_DIR$/application/views/kelas_view.php" />
+        <option value="$PROJECT_DIR$/application/views/guru_list_view.php" />
       </list>
     </option>
   </component>
@@ -211,7 +205,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -318,6 +311,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,15 +336,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -468,7 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2397">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,7 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="982" max-vertical-offset="1632">
           <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -484,7 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1717">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="578">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1581">
           <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="642" max-vertical-offset="1343">
           <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2397">
           <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1615">
           <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923" vertical-offset="578" max-vertical-offset="1632">
           <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.538462" vertical-offset="217" max-vertical-offset="1853">
           <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075" vertical-offset="68" max-vertical-offset="748">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -684,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="646">
           <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="697">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.615385" vertical-offset="1611" max-vertical-offset="2601">
           <caret line="111" column="46" selection-start-line="111" selection-start-column="46" selection-end-line="111" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="544">
           <caret line="13" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,13 +695,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.8461537" vertical-offset="34" max-vertical-offset="731">
           <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/header_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="255" max-vertical-offset="850">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="850">
           <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
           <folding />
         </state>
@@ -730,7 +708,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/m_jenisnilai.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.269231" vertical-offset="174" max-vertical-offset="782">
+        <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="782">
           <caret line="29" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
           <folding />
         </state>
@@ -738,7 +716,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/m_tunjukKelas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.76923" vertical-offset="166" max-vertical-offset="816">
+        <state vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="816">
           <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding />
         </state>
@@ -746,47 +724,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/siswa_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="765">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="765">
           <caret line="9" column="18" selection-start-line="7" selection-start-column="12" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/mapel_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923" vertical-offset="17" max-vertical-offset="1020">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/jenisnilai_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1003">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
           <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/guru_list_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="884">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/kelas_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="697">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/tunjukKelas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.115385" vertical-offset="64" max-vertical-offset="782">
+        <state vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="782">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding />
         </state>
@@ -794,9 +748,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/tunjuk_kelas_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17926186" vertical-offset="0" max-vertical-offset="1751">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1751">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mapel_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1071">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/kelas_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.961538" vertical-offset="183" max-vertical-offset="765">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/guru_list_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68717045" vertical-offset="187" max-vertical-offset="884">
+          <caret line="39" column="280" selection-start-line="39" selection-start-column="280" selection-end-line="39" selection-end-column="280" />
+          <folding>
+            <marker date="1427644044197" expanded="true" signature="1383:1485" placeholder="SELECT mata_..mata_pelajaran..." />
+            <marker date="1427644044197" expanded="true" signature="1383:1486" placeholder="SELECT mata_..mata_pelajaran..." />
+          </folding>
         </state>
       </provider>
     </entry>

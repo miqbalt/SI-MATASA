@@ -37,7 +37,7 @@
                         <tr>
                             <td><?php echo $row->ID_GURU; ?></td>
                             <td><?php echo $row->NAMA_GURU; ?></td>
-                            <td><?php echo $row->ID_MATA_PELAJARAN; ?></td>
+                            <td><?php $hehe = $this->db->query("SELECT mata_pelajaran.nama_mata_pelajaran from mata_pelajaran where mata_pelajaran.id_mata_pelajaran = ".$row->ID_MATA_PELAJARAN.";"); foreach($hehe->result_array() as $rows) echo $rows['nama_mata_pelajaran'];?></td>
                             <td><?php echo $row->ALAMAT_GURU; ?></td>
                             <td><?php echo $row->JENIS_KELAMIN_GURU; ?></td>
                             <td><?php echo $row->JABATAN_GURU; ?></td>

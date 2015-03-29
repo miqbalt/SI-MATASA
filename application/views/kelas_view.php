@@ -11,7 +11,7 @@
         </div>
         <br>
         <div class="row">
-            <div class="colmd-10 col-md-offset-3">
+            <div class="col-md-10 col-md-offset-1">
                 <table class="table table-striped table-hover">
                     <?php $data ?>
                     <thead>
