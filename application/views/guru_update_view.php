@@ -2,8 +2,8 @@
 <div class="row">
     <div class="col-md-6 col-md-offset-3">
         <div class="panel panel-default">
-            <div class="panel-heading">
-                Ubah Data Guru
+            <div class="panel-heading" style="font-size: large;font-weight: bold">
+                Form Merubah Rincian Data Guru
             </div>
             <div class="panel-body">
                 <?php echo form_open('guru/update/'.$data['ID_GURU']);?>

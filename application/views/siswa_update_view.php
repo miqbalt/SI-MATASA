@@ -2,8 +2,8 @@
 <div class="row">
     <div class="col-md-6 col-md-offset-3">
         <div class="panel panel-default">
-            <div class="panel-heading">
-                Edit Data Siswa
+            <div class="panel-heading" style="font-weight: bold;font-size: larger">
+                Form Merubah Rincian Data Siswa
             </div>
             <?php echo form_open('siswa/update/'.$data['ID_MURID']);?>
             <div class="panel-body">

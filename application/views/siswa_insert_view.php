@@ -2,8 +2,8 @@
 <div class="row">
     <div class="col-md-6 col-md-offset-3">
         <div class="panel panel-default">
-            <div class="panel-heading">
-                Tambah Siswa
+            <div class="panel-heading" style="font-size: larger;font-weight: bold">
+                Rincian Data Murid Baru
             </div>
             <div class="panel-body">
                 <?php echo form_open('siswa/save');?>
