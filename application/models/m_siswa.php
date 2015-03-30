@@ -4,6 +4,7 @@ class M_siswa extends CI_Model{
 
     public function tambah()
     {
+        $id_kelas = $this->input->post('id_kelas');
         $id_murid = $this->input->post('id_murid');
         $nama = $this->input->post('nama');
         $nisn = $this->input->post('nisn');
@@ -32,7 +33,8 @@ class M_siswa extends CI_Model{
             'ibu' => $ibu,
             'pekerjaan_ortu' => $pekerjaan_ortu,
             'gaji' => $gaji,
-            'tahun1' => $tahun1
+            'tahun1' => $tahun1,
+            'id_kelas' => $id_kelas
             );
         return $this->db->insert('murid',$data);
     }
@@ -76,7 +78,7 @@ class M_siswa extends CI_Model{
             'ibu' => $ibu,
             'pekerjaan_ortu' => $pekerjaan_ortu,
             'gaji' => $gaji,
-            'tahun1' => $tahun1
+            'tahun1' => $tahun1,
         );
 
         //print_r($data);

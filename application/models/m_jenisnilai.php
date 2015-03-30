@@ -11,31 +11,31 @@ class M_jenisnilai extends CI_Model {
 			'jenis_nilai' => $jenisnilai,
 			);
 
-		$this->db->insert("jenisnilai",$data);
+		$this->db->insert("jenis_penilaian",$data);
 	}
 
 	function read()
 	{
-		return $this->db->get('jenisnilai')->result();
+		return $this->db->get('jenis_penilaian')->result();
 	}
 
 	public function getSingle($id){
-		$data = $this->db->get_where('jenisnilai', array('id_jenisnilai' => $id));
+		$data = $this->db->get_where('jenis_penilaian', array('id_jenisnilai' => $id));
 		return $data->row_array();
 	}
 
 	public function getData(){
-		$data = $this->db->get('jenisnilai');
+		$data = $this->db->get('jenis_penilaian');
 		return $data->result();
 	}
 
 	function select($id)
 	{
-		return $this->db->get_where("jenisnilai",  array('id_jenisnilai' => $id))->row();
+		return $this->db->get_where("jenis_penilaian",  array('id_jenisnilai' => $id))->row();
 	}
 
 	function Delete($id)
 	{
-		$this->db->delete("jenisnilai", array('id_jenisnilai' => $id));
+		$this->db->delete("jenis_penilaian", array('id_jenisnilai' => $id));
 	}
 }

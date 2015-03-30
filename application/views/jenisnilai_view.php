@@ -34,7 +34,8 @@
                  		<td><?php echo $data->ID_JENISNILAI; ?></td>
                  		<td><?php echo $data->JENIS_NILAI; ?></td>
                  		<td>
-							<a href="jenisnilai/delete/<?php echo $data->ID_JENISNILAI; ?>"><button class="btn btn-danger">Delete</button></a>
+                            <?php echo '<a href="delete/'; echo $data->ID_JENISNILAI; echo '">
+                                <div class="btn btn-danger colmd-10 col-md-offset-1">Hapus</div></a>"'?></td>
                  		</td>
                  	</tr>
                  	<?php

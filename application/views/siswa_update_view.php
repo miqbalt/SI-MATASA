@@ -2,20 +2,12 @@
 <div class="row">
     <div class="col-md-6 col-md-offset-3">
         <div class="panel panel-default">
-            <div class="panel-heading" style="font-weight: bold;font-size: larger">
+            <div class="panel-heading">
                 Form Merubah Rincian Data Siswa
             </div>
             <?php echo form_open('siswa/update/'.$data['ID_MURID']);?>
             <div class="panel-body">
-                <div class=" form-group">
-                    <label class="col-md-4 cotrol-label">ID Kelas</label>
-                    <div class="col-md-6">
-                        <select class="form-control" name="id_kelas">
-                            <option value="7">7A</option>
-                            <option value="2">7B</option>
-                        </select>
-                    </div>
-                </div>
+
                 <div class="form-group">
                     <label class="col-md-4 control-label">Nama</label>
                     <div class="col-md-6">

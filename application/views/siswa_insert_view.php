@@ -96,6 +96,17 @@
                         </div>
                     </div>
                     <div class="form-group">
+                        <label class="col-md-4 control-label">Kelas Masuk</label>
+                        <div class="col-md-6">
+                            <select class="form-control" name="id_kelas">
+                                <?PHP print_r($data);?>
+                                <?php foreach($data as $row):?>
+                                    <option value="<?php echo $row->ID_KELAS;?>"><?php echo $row->NAMA_KELAS;?></option>
+                                <?php endforeach?>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
                         <label class="col-md-4 control-label">Tahun 1</label>
                         <div class="col-md-6">
                             <select class="form-control" name="tahun1">

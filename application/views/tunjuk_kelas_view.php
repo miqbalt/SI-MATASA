@@ -58,8 +58,8 @@
                     <thead>
                     <tr class="success">
                         <th>NO</th>
-                        <th>ID kelas</th>
-                        <th>ID Guru</th>
+                        <th>Kelas</th>
+                        <th>Wali Kelas</th>
                         <th>Tahun angkatan</th>
                         <th>Pilihan</th>
                     </tr>
@@ -74,8 +74,8 @@
 
                             <tr>
                                 <td><?php echo $no; ?></td>
-                                <td><?php echo $data->ID_KELAS; ?></td>
-                                <td><?php echo $data->ID_GURU; ?></td>
+                                <td><?php $hehe = $this->db->query("SELECT kelas.nama_kelas from kelas where kelas.id_kelas = ".$data->ID_KELAS.";"); foreach($hehe->result_array() as $rows) echo $rows['nama_kelas'];?></td>
+                                <td><?php $hehe = $this->db->query("SELECT guru.nama_guru from guru where guru.id_guru = ".$data->ID_GURU.";"); foreach($hehe->result_array() as $rows) echo $rows['nama_guru'];?></td>
                                 <td><?php echo $data->TAHUN_ANGKATAN; ?></td>
                                 <td>
                                     <a href="tunjukKelas/delete/<?php echo $data->ID_KELAS."/".$data->ID_GURU."/".$data->TAHUN_ANGKATAN;  ?>"><button class="btn btn-danger">Delete</button></a>

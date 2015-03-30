@@ -8,6 +8,12 @@
             <div class="panel-body">
                 <?php echo form_open('kelas/save');?>
                 <div class="form-group">
+                    <label class="col-md-4 control-label">ID Kelas</label>
+                    <div class="col-md-6">
+                        <input class="form-control" placeholder="IDKelas" name="id_kelas" type="text">
+                    </div>
+                </div>
+                <div class="form-group">
                     <label class="col-md-4 control-label">Nama Kelas</label>
                     <div class="col-md-6">
                         <input class="form-control" placeholder="Nama" name="nama_kelas" type="text">

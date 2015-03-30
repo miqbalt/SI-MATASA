@@ -5,7 +5,9 @@ class M_Kelas extends CI_Model{
     public function tambah()
     {
         $nama_kelas = $this->input->post('nama_kelas');
+        $id_kelas = $this->input->post('id_kelas');
         $data = array(
+            'id_kelas' => $id_kelas,
             'nama_kelas' => $nama_kelas
         );
         return $this->db->insert('kelas',$data);
